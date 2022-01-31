@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base-Converter</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h3 class="header">Common Base Conversions!</h3>
+    <div class="greeting">Enter Your Number!</div>
+    <form id="form1" onsubmit="checkChecked()">
+        <fieldset>
+
+
+        <input class="number_field" id="text-input" type='text' name="numberinput" placeholder="123">
+        <br><br>
+        <div class="question"> What is the current base?</div>
+        
+        <input id="decimal-radio-button" type="radio" name="bases"/> 
+        <label for="decimal-radio-button">Decimal</label>
+        <br>
+        <input id="binary-radio-button" type="radio" name="bases"/> 
+        <label for="binary-radio-button">Binary</label>
+        <br>
+        <input id="hex-radio-button" type="radio" name="bases"/> 
+        <label for="hex-radio-button">Hexadecimal</label>
+        <br>
+        <input id="octal-radio-button" type="radio" name="bases"/> 
+        <label for="octal-radio-button">Octal</label>
+        <br>
+        <button type="submit" id='output-button' name="submit" > Convert!</button>
+        </fieldset>
+ </form>
+    <table class= "output_table" id="output-table">
+        <tr class="table_row">
+            <td class="output_tag">Decimal:</td>
+            <td class="output_number" id="decimal-output">---</td>
+        </tr>
+        <tr class="table_row">
+            <td class="output_tag">Binary:</td>
+            <td class="output_number" id="binary-output">---</td>
+        </tr>
+        <tr class="table_row">
+            <td class="output_tag">Hexademcial:</td>
+            <td class="output_number" id="hex-output">---</td>
+        </tr>
+        <tr class="table_row">
+            <td class="output_tag">Octal:</td>
+            <td class="output_number" id="octal-output">---</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>

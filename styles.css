@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+›
+.output_number{
+    text-indent: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.output_tag{
+line-height: 30px;
+text-align: left;
+}
+
+.output_table{
+    display:inline-block;
+}
+
+form{
+    display: inline-block
+}
+
+.number_field{
+    margin-top: 10px; ;
+}
+
+.greeting{
+    margin-bottom: 10px;
+}
+
+.question{
+    margin-bottom: 5px;
+}
+
+input{
+    margin: 5px;
+    outline: none;
+}
